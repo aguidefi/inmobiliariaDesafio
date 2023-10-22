@@ -1,0 +1,40 @@
+.main-section {
+    background-image: url('../img/img-main.jpeg');
+    background-size: cover; 
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.imagen{
+    height: 200px;
+}
+
+.verde{
+    color: green;
+}
+
+.rojo{
+    color: red;
+}
+
+#contenedorVenta {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+#contenedorAlquiler {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.card {
+    padding: 3px;
+    width: 30%;
+}
